@@ -19,7 +19,7 @@ comm
     ssh server port [porta]
 
 ## ◾ ROTAS ESTÁTICAS - STATIC ROUTES
-    ip route-static [ip_do_cliente] 32 [ip_do_concentrador] description [descricao]
+    ip route-static [ip_do_cliente] [mascara ex: 24] [ip_do_concentrador] description [descricao]
 
 ## ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
 	monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
