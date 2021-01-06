@@ -26,10 +26,10 @@ comm
 
 ### ◾  VERIFICAR ROTAS - DISPLAY ROUTING
   ### ◾ NORMAL
-  display ip routing-table protocol static
-  
+    display ip routing-table protocol static
+
   ### ◾ COM FILTRO
-  display ip routing-table protocol static | include <EXPRESSÃO>
+    display ip routing-table protocol static | include <EXPRESSÃO>
 
 ## ◾ UPTIME
     display version
