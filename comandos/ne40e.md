@@ -14,6 +14,6 @@
   - commit
 
 ## ◾ AMUDAR PORTA SSH - CHANGE SSH PORT
-  * ssh server port {PORTA}
+  ssh server port {PORTA}
 
 ## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
