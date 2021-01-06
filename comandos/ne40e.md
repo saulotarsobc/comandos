@@ -9,9 +9,11 @@
 </h1>
 
 ## ◾ CHANGE PASSWORD - MUDAR SENHA
+```
 aaa
 local-user root password cipher **[seua_senha]**
-commit
+comm
+```
 
 ## ◾ MUDAR PORTA SSH - CHANGE SSH PORT  
   ssh server port **[porta]**
