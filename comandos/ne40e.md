@@ -7,3 +7,12 @@
 <h1 align="center">
   <img alt="ne40e" title="ne40e" src="../img/ne40e.png"/>
 </h1>
+
+## ◾ Mudar senha
+aaa
+local-user root password cipher <SENHA>
+commit
+
+
+## ◾ Alterar porta SSH
+	ssh server port <PORTA>
