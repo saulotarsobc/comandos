@@ -3,6 +3,7 @@
 
 <!-- fiberhome an6001 -->
 ### Fiberhome an6001
- <a align="center" href="https://github.com/saulotarsobc/comandos/blob/master/an6001.md">
-    <img alt="an6001" title="an6001" src="./img/an6001.png"/>
- </a>
+
+<a align="center" href="https://github.com/saulotarsobc/comandos/blob/master/an6001.md">
+ <img alt="an6001" title="an6001" src="./img/an6001.png"/>
+</a>
