@@ -18,5 +18,31 @@ comm
 ## ◾ MUDAR PORTA SSH - CHANGE SSH PORT
     ssh server port [porta]
 
-## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
+## ◾ ROTAS ESTÁTICAS - STATIC ROUTES
     ip route-static [ip_do_cliente] 32 [ip_do_concentrador] description [descricao]
+
+## ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
+	monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
+
+## ◾ VERIFICAR ROTAS - DISPLAY ROUTING
+  display ip routing-table protocol static
+  ## FILTRO
+    display ip routing-table protocol static | include <EXPRESSÃO>
+
+## ◾ UPTIME
+  display version
+
+## ◾ IP ADDRESS ADD
+	ip address <IP> <MÁSCARA>
+  ip address <IP> <MÁSCARA> sub
+  ip address <IP> <MÁSCARA> sub
+
+IP ADDRESS REMOVE
+	undo ip address <IP> <MÁSCARA> sub
+undo ip address <IP> <MÁSCARA> sub
+undo ip address <IP> <MÁSCARA>
+commit
+
+GATEWAY
+	ip route-static 0.0.0.0 0.0.0.0 <ip gateway>
+	commit
