@@ -17,5 +17,6 @@
 
 
 ## ◾ Alterar porta SSH
+<code>
   ssh server port {PORTA}
-  
+</code>
