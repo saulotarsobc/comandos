@@ -8,10 +8,12 @@
   <img alt="ne40e" title="ne40e" src="../img/ne40e.png" />
 </h1>
 
-## ◾ Mudar senha
+## ◾ CHANGE PASSWORD - MUDAR SENHA
   - aaa
   - local-user root password cipher {SENHA}
   - commit
 
-## ◾ Alterar porta SSH
+## ◾ AMUDAR PORTA SSH - CHANGE SSH PORT
   * ssh server port {PORTA}
+
+## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
