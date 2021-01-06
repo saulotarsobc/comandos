@@ -8,15 +8,13 @@
   <img alt="ne40e" title="ne40e" src="../img/ne40e.png" />
 </h1>
 
-## ◾ Mudar senha
-<code>
+## ◾Mudar senha
+
+```
   - aaa
   - local-user root password cipher {SENHA}
   - commit
-</code>
+```
 
-
-## ◾ Alterar porta SSH
-<code>
-  ssh server port {PORTA}
-</code>
+## ◾Alterar porta SSH
+  * ssh server port {PORTA}
