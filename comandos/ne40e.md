@@ -23,11 +23,3 @@ comm
 
 ## teste
     ok
-
-
-Some basic Git commands are:
-```
-aaa
-local-user root password cipher [seua_senha]
-comm
-```
