@@ -24,24 +24,24 @@ comm
   >ip route-static 192.168.2.1 24 192.168.0.1 description para_narnia
 
 ### ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
-  	monitor interface-statistics interface [interface] interval [intervalo(segundos)] times [numero de repeticoes(ou 'infinity')]
+    $ monitor interface-statistics interface [interface] interval [segundos] times [vezes(ou 'infinity')]
   Ex:
   >monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
 ### ◾  VERIFICAR ROTAS - DISPLAY ROUTING
   ##### ▪️ NORMAL
-    display ip routing-table protocol static
+    $ display ip routing-table protocol static
 
   ##### ▪️ COM FILTRO
-    display ip routing-table protocol static | include [expressao]
+    $ display ip routing-table protocol static | include [expressao]
 
 ### ◾ UPTIME
     display version
 
 ### ◾ IP ADDRESS ADD
-    ip address [ip] [mascara]
-    ip address [ip] [mascara] sub
-    ip address [ip] [mascara] sub
+    $ ip address [ip] [mascara]
+    $ ip address [ip] [mascara] sub
+    $ ip address [ip] [mascara] sub
 
 ### ◾ IP ADDRESS REMOVE
     undo ip address [ip] [mascara] sub
