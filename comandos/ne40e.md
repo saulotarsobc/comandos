@@ -17,7 +17,7 @@
     ssh server port {PORTA}
 
 ## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
-  ip route-static **ip_do_cliente** 32 **ip_do_concentrador** description **descrição**
+  ip route-static **{ip_do_cliente}** 32 **{ip_do_concentrador}** description **{descrição}**
 
 ## testes
     Here is some ** bold ** text.
