@@ -24,11 +24,11 @@ comm
 ## ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
 	monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
-### ◾  VERIFICAR ROTAS - DISPLAY ROUTING
-  ### ◾ NORMAL
+## ◾  VERIFICAR ROTAS - DISPLAY ROUTING
+  #### ◾ NORMAL
     display ip routing-table protocol static
 
-  ### ◾ COM FILTRO
+  #### ◾ COM FILTRO
     display ip routing-table protocol static | include <EXPRESSÃO>
 
 ## ◾ UPTIME
