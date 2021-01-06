@@ -25,23 +25,24 @@ comm
 	monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
 ## ◾ VERIFICAR ROTAS - DISPLAY ROUTING
+  ## NORMAL
   display ip routing-table protocol static
   ## FILTRO
-    display ip routing-table protocol static | include <EXPRESSÃO>
+  display ip routing-table protocol static | include <EXPRESSÃO>
 
 ## ◾ UPTIME
-  display version
+    display version
 
 ## ◾ IP ADDRESS ADD
-	ip address <IP> <MÁSCARA>
-  ip address <IP> <MÁSCARA> sub
-  ip address <IP> <MÁSCARA> sub
+    ip address <IP> <MÁSCARA>
+    ip address <IP> <MÁSCARA> sub
+    ip address <IP> <MÁSCARA> sub
 
-IP ADDRESS REMOVE
-	undo ip address <IP> <MÁSCARA> sub
-undo ip address <IP> <MÁSCARA> sub
-undo ip address <IP> <MÁSCARA>
-commit
+## ◾ IP ADDRESS REMOVE
+    undo ip address <IP> <MÁSCARA> sub
+    undo ip address <IP> <MÁSCARA> sub
+    undo ip address <IP> <MÁSCARA>
+    commit
 
 GATEWAY
 	ip route-static 0.0.0.0 0.0.0.0 <ip gateway>
