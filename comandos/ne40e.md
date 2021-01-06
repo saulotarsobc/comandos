@@ -19,4 +19,11 @@
 ## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
     ip route-static ** <ip do cliente> ** 32 <ip do concentrador> description {descrição}
 
-## 
+## testes
+Here is some ** bold ** text.
+
+Here is some * italic * text.
+
+Here is some more __ bold __ text.
+
+Here is some more _ italic _ text.
