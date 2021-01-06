@@ -40,4 +40,3 @@
 
 ### Salvar a cada 24h
 	autosave on 19:00:00
-
