@@ -24,7 +24,9 @@ comm
   >ip route-static 192.168.2.1 24 192.168.0.1 description para_narnia
 
 ### ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
-	monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
+  	monitor interface-statistics interface [interface] interval [intervalo(segundos)] times [numero de repeticoes]
+  Ex:
+  >monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
 ### ◾  VERIFICAR ROTAS - DISPLAY ROUTING
   ##### ▪️ NORMAL
