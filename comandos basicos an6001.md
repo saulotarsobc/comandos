@@ -1,5 +1,9 @@
 <h1 align="center">Comando básicos -> FiberHome AN6001-G1</h1>
 
+<h1 align="center">
+  <img alt="an6001" title="an6001" src="./img/an6001.png"/>
+</h1>
+
 ## Criar vlan de gerencia
 	manage-vlan GERENCIA svlan 4000
 
