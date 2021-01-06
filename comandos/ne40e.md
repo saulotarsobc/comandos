@@ -9,12 +9,14 @@
 </h1>
 
 ## ◾ CHANGE PASSWORD - MUDAR SENHA
-    - aaa
-    - local-user root password cipher {SENHA}
-    - commit
+```
+- aaa
+- local-user root password cipher {SENHA}
+- commit
+```
 
 ## ◾ AMUDAR PORTA SSH - CHANGE SSH PORT
-    ssh server port [port]
+  ssh server port **[port]**
 
 ## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
   ip route-static **[ip_do_cliente]** 32 **[ip_do_concentrador]** description **[descrição]**
