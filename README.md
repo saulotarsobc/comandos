@@ -15,6 +15,6 @@
 
 <div align="center">
     <a href="https://github.com/saulotarsobc/comandos/blob/master/ne40e.md">
-        <img alt="an6001" title="an6001" src="./img/ne40e.png" />
+        <img alt="NE40E" title="NE40E" src="./img/ne40e.png" />
     </a>
 </div>
