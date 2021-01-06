@@ -24,10 +24,10 @@
 # Adicionar varias vlans na porta uplink
 	port vlan 71 to 86 tag 1/19 3
 
-# Adicionar uma vlan noa SLOTs
+# Adicionar uma vlan noa SLOT's
 	port vlan 73 allslot
 
-# Adicionar varias vlan's nos SLOTs
+# Adicionar varias vlan's nos SLOT's
 	port vlan 73 to 86 allslot
 
 # Salvar configurações automaticamente
