@@ -35,16 +35,16 @@ comm
     display version
 
 ## ◾ IP ADDRESS ADD
-    ip address <IP> <MÁSCARA>
-    ip address <IP> <MÁSCARA> sub
-    ip address <IP> <MÁSCARA> sub
+  ip address <IP> <MÁSCARA>
+  ip address <IP> <MÁSCARA> sub
+  ip address <IP> <MÁSCARA> sub
 
 ## ◾ IP ADDRESS REMOVE
-    undo ip address <IP> <MÁSCARA> sub
-    undo ip address <IP> <MÁSCARA> sub
-    undo ip address <IP> <MÁSCARA>
-    commit
+  undo ip address <IP> <MÁSCARA> sub
+  undo ip address <IP> <MÁSCARA> sub
+  undo ip address <IP> <MÁSCARA>
+  commit
 
-GATEWAY
-	ip route-static 0.0.0.0 0.0.0.0 <ip gateway>
-	commit
+## ◾ GATEWAY
+  ip route-static 0.0.0.0 0.0.0.0 <ip gateway>
+  commit
