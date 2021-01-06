@@ -29,22 +29,22 @@ comm
     display ip routing-table protocol static
 
   ##### ▪️ COM FILTRO
-    display ip routing-table protocol static | include <EXPRESSÃO>
+    display ip routing-table protocol static | include [EXPRESSÃO>
 
 ## ◾ UPTIME
     display version
 
 ## ◾ IP ADDRESS ADD
-    ip address <IP> <MÁSCARA>
-    ip address <IP> <MÁSCARA> sub
-    ip address <IP> <MÁSCARA> sub
+    ip address [IP> [mascara]
+    ip address [IP> [mascara] sub
+    ip address [IP> [mascara] sub
 
 ## ◾ IP ADDRESS REMOVE
-    undo ip address <IP> <MÁSCARA> sub
-    undo ip address <IP> <MÁSCARA> sub
-    undo ip address <IP> <MÁSCARA>
+    undo ip address [IP> [mascara] sub
+    undo ip address [IP> [mascara] sub
+    undo ip address [IP> [mascara]
     commit
 
 ## ◾ GATEWAY
-    ip route-static 0.0.0.0 0.0.0.0 <ip gateway>
+    ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
     commit
