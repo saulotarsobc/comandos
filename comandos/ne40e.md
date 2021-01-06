@@ -10,9 +10,9 @@
 
 ## ◾ CHANGE PASSWORD - MUDAR SENHA
 ```
-- aaa
-- local-user root password cipher {SENHA}
-- commit
+aaa
+local-user root password cipher {SENHA}
+commit
 ```
 
 ## ◾ AMUDAR PORTA SSH - CHANGE SSH PORT
