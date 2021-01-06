@@ -35,14 +35,14 @@ comm
     display version
 
 ## ◾ IP ADDRESS ADD
-    ip address [IP> [mascara]
-    ip address [IP> [mascara] sub
-    ip address [IP> [mascara] sub
+    ip address [ip] [mascara]
+    ip address [ip] [mascara] sub
+    ip address [ip] [mascara] sub
 
 ## ◾ IP ADDRESS REMOVE
-    undo ip address [IP> [mascara] sub
-    undo ip address [IP> [mascara] sub
-    undo ip address [IP> [mascara]
+    undo ip address [ip] [mascara] sub
+    undo ip address [ip] [mascara] sub
+    undo ip address [ip] [mascara]
     commit
 
 ## ◾ GATEWAY
