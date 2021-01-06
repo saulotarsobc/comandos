@@ -14,7 +14,7 @@
     - commit
 
 ## ◾ AMUDAR PORTA SSH - CHANGE SSH PORT
-    ssh server port {PORTA}
+    ssh server port [port]
 
 ## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
   ip route-static **[ip_do_cliente]** 32 **[ip_do_concentrador]** description **[descrição]**
