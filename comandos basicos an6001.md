@@ -31,8 +31,8 @@
 	port vlan 73 to 86 allslot
 
 # Salvar configurações automaticamente
-	## Salvar a cada 360 minutos
-		* autosave on 360
+*Salvar a cada 360 minutos
+*autosave on 360
 
 	## Salvar a cada 24h
 		* autosave on 19:00:00
