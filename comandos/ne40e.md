@@ -8,47 +8,47 @@
   <img alt="ne40e" title="ne40e" src="../img/ne40e.png" />
 </h1>
 
-## ◾ MUDAR SENHA - CHANGE PASSWORD
+### ◾ MUDAR SENHA - CHANGE PASSWORD
 ```
 aaa
 local-user root password cipher [seua_senha]
 comm
 ```
 
-## ◾ MUDAR PORTA SSH - CHANGE SSH PORT
+### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
     ssh server port [porta]
 
-## ◾ ROTAS ESTÁTICAS - STATIC ROUTES
+### ◾ ROTAS ESTÁTICAS - STATIC ROUTES
     ip route-static [ip_do_cliente] [mascara ex: 24] [ip_do_concentrador] description [descricao]
   Ex:
   >ip route-static 192.168.2.1 24 192.168.0.1 description para_narnia
 
-## ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
+### ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
 	monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
-## ◾  VERIFICAR ROTAS - DISPLAY ROUTING
+### ◾  VERIFICAR ROTAS - DISPLAY ROUTING
   ##### ▪️ NORMAL
     display ip routing-table protocol static
 
   ##### ▪️ COM FILTRO
     display ip routing-table protocol static | include [EXPRESSÃO>
 
-## ◾ UPTIME
+### ◾ UPTIME
     display version
 
-## ◾ IP ADDRESS ADD
+### ◾ IP ADDRESS ADD
     ip address [ip] [mascara]
     ip address [ip] [mascara] sub
     ip address [ip] [mascara] sub
 
-## ◾ IP ADDRESS REMOVE
+### ◾ IP ADDRESS REMOVE
     undo ip address [ip] [mascara] sub
     undo ip address [ip] [mascara] sub
     undo ip address [ip] [mascara]
     commit
 
-## ◾ GATEWAY
+### ◾ GATEWAY
     ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
     commit
 Ex:
-  > ip route-static 0.0.0.0 0.0.0.0 10.200.1.1
+  >ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
