@@ -30,7 +30,7 @@
 # Adicionar varias vlan's nos SLOTs
 	port vlan 73 to 86 allslot
 
-## Salvar configurações automaticamente
+# Salvar configurações automaticamente
 * Salvar a cada 360 minutos
 	* autosave on 360
 
