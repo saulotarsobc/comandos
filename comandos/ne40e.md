@@ -9,11 +9,11 @@
 </h1>
 
 ## ◾ Mudar senha
-<p>
+<code>
   - aaa
   - local-user root password cipher {SENHA}
   - commit
-</p>
+</code>
 
 
 ## ◾ Alterar porta SSH
