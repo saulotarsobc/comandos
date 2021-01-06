@@ -10,16 +10,16 @@
 
 ### ◾ MUDAR SENHA - CHANGE PASSWORD
 ```
-aaa
-local-user root password cipher [sua_senha]
-comm
+$ aaa
+$ local-user root password cipher [sua_senha]
+$ comm
 ```
 
 ### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
-    ssh server port [porta]
+    $ ssh server port [porta]
 
 ### ◾ ROTAS ESTÁTICAS - STATIC ROUTES
-    ip route-static [ip_do_cliente] [mascara ex: 24] [ip_do_concentrador] description [descricao]
+    $ ip route-static [ip_do_cliente] [mascara ex: 24] [ip_do_concentrador] description [descricao]
   Ex:
   >ip route-static 192.168.2.1 24 192.168.0.1 description para_narnia
 
@@ -36,7 +36,7 @@ comm
     $ display ip routing-table protocol static | include [expressao]
 
 ### ◾ UPTIME
-    display version
+    $ display version
 
 ### ◾ IP ADDRESS ADD
     $ ip address [ip] [mascara]
