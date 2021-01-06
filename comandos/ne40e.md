@@ -8,7 +8,7 @@
   <img alt="ne40e" title="ne40e" src="../img/ne40e.png" />
 </h1>
 
-## ◾ CHANGE PASSWORD - MUDAR SENHA
+## ◾ MUDAR SENHA - CHANGE PASSWORD
 ```
 aaa
 local-user root password cipher [seua_senha]
