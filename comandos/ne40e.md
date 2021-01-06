@@ -13,10 +13,11 @@
   * local-user root password cipher **[seua_senha]**
   * commit
 
-## ◾ MUDAR PORTA SSH - CHANGE SSH PORT
-  
+## ◾ MUDAR PORTA SSH - CHANGE SSH PORT  
   ssh server port **[porta]**
 
-## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
-  
+## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES  
   ip route-static **[ip_do_cliente]** 32 **[ip_do_concentrador]** description **[descricao]**
+
+## teste
+ok
