@@ -50,3 +50,5 @@ comm
 ## ◾ GATEWAY
     ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
     commit
+Ex:
+  > ip route-static 0.0.0.0 0.0.0.0 10.200.1.1
