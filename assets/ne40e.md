@@ -58,3 +58,7 @@ Ex:
 ### ◾ EXIBIR IPS ANUNCIADOS DO PEER
     $ display bgp peer
     $ display bgp routing-table peer [ip_do_peer] advertised-routes
+
+### ◾ SOBRE BGP...
+##### ▪️ Exibir blocos redes 'saindo' por prefixo
+    $ display ip ip-prefix [nome_do_prefixo]
