@@ -37,7 +37,4 @@
 * Salvar a cada 24h
 	* autosave on 19:00:00
 
-### Métodos suportados
-* Clientes
-    * listar tudo
-    * detalhar um cliente específico
+	
