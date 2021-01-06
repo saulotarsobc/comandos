@@ -11,7 +11,7 @@
 ### ◾ MUDAR SENHA - CHANGE PASSWORD
 ```
 aaa
-local-user root password cipher [seua_senha]
+local-user root password cipher [sua_senha]
 comm
 ```
 
