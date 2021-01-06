@@ -24,7 +24,7 @@ comm
   >ip route-static 192.168.2.1 24 192.168.0.1 description para_narnia
 
 ### ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
-  	monitor interface-statistics interface [interface] interval [intervalo(segundos)] times [numero de repeticoes]
+  	monitor interface-statistics interface [interface] interval [intervalo(segundos)] times [numero de repeticoes(ou 'infinity')]
   Ex:
   >monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
@@ -33,7 +33,7 @@ comm
     display ip routing-table protocol static
 
   ##### ▪️ COM FILTRO
-    display ip routing-table protocol static | include [EXPRESSÃO>
+    display ip routing-table protocol static | include [expressao]
 
 ### ◾ UPTIME
     display version
