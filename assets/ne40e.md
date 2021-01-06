@@ -56,5 +56,5 @@ Ex:
   >ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
 
 ### ◾ EXIBIR IPS ANUNCIADOS DO PEER
-  $ display bgp peer
-  $ display bgp routing-table peer 186.235.84.133 advertised-routes
+    $ display bgp peer
+    $ display bgp routing-table peer [ip_do_peer] advertised-routes
