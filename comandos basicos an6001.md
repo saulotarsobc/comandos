@@ -1,5 +1,7 @@
 # Comando básicos -> FiberHome AN6001-G1
 
+<h1 align="center">Comando básicos -> FiberHome AN6001-G1</h1>
+
 # Criar vlan de gerencia
 	manage-vlan GERENCIA svlan 4000
 
@@ -24,7 +26,7 @@
 # Adicionar varias vlans na porta uplink
 	port vlan 71 to 86 tag 1/19 3
 
-# Adicionar uma vlan noa SLOT's
+# Adicionar uma vlan nos SLOT's
 	port vlan 73 allslot
 
 # Adicionar varias vlan's nos SLOT's
