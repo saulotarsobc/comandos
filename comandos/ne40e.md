@@ -20,7 +20,3 @@ comm
 
 ## ◾ CRIAÇÃO DE ROTAS ESTÁTICAS - STATIC ROUTES
     ip route-static [ip_do_cliente] 32 [ip_do_concentrador] description [descricao]
-
-- [x] Finish my changes
-- [ ] Push my commits to GitHub
-- [ ] Open a pull request
