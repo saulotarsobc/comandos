@@ -25,7 +25,10 @@ commit
 
 ### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
 
-ssh server port [porta]
+```py
+ssh server port <porta>
+
+```
 
 ### ◾ ROTAS ESTÁTICAS - STATIC ROUTES
 
