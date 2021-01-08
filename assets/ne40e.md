@@ -19,7 +19,6 @@
 ```md
 aaa
 local-user root password cipher [senha]
-
 ```
 
 ### 1.1.2. ◾ MUDAR PORTA SSH - CHANGE SSH PORT
