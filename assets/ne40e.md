@@ -12,7 +12,7 @@
 ```
 $ aaa
 $ local-user root password cipher [sua_senha]
-$ comm
+$ commit
 ```
 
 ### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
