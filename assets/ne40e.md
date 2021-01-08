@@ -38,12 +38,13 @@ $ comm
 ### ◾ UPTIME
     $ display version
 
-### ◾ IP ADDRESS ADD
+### ◾ IP ADDRESS
+#### ADD
     $ ip address [ip] [mascara]
     $ ip address [ip] [mascara] sub
     $ ip address [ip] [mascara] sub
 
-### ◾ IP ADDRESS REMOVE
+#### REMOVER
     $ undo ip address [ip] [mascara] sub
     $ undo ip address [ip] [mascara] sub
     $ undo ip address [ip] [mascara]
