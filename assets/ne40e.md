@@ -16,21 +16,16 @@
 
 ### ◾ MUDAR SENHA - CHANGE PASSWORD
 
-```bash
+```C
 aaa
 local-user root password cipher [senha]
 commit
 
 ```
 
-```bash
-#!/bin/bash
-echo Hello world
-```
-
 ### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
 
-```py
+```C
 ssh server port <porta>
 
 ```
