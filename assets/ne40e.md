@@ -19,7 +19,6 @@
 ```md
 aaa
 local-user root password cipher [senha]
-commit
 
 ```
 
@@ -76,7 +75,6 @@ display version
 ip address [ip] [mascara]
 ip address [ip] [mascara] sub
 ip address [ip] [mascara] sub
-commit
 
 ```
 
@@ -86,7 +84,6 @@ commit
 undo ip address [ip] [mascara] sub
 undo ip address [ip] [mascara] sub
 undo ip address [ip] [mascara]
-commit
 
 ```
 
@@ -94,7 +91,6 @@ commit
 
 ```md
 ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
-commit
 
 ```
 
