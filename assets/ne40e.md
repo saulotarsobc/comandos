@@ -42,11 +42,11 @@ ip route-static [ip_do_cliente] [mascara ex: 24] [ip_do_concentrador] descriptio
 ### ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
 
 ```md
-monitor interface-statistics interface [interface] interval [segundos] times [vezes(ou 'infinity')]
+monitor interface-statistics interface [interface] interval [segundos] times [numero vezes ou 'infinity']
 
 ```
 
->Ex: monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
+> monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
 ### ◾VERIFICAR ROTAS - DISPLAY ROUTING
 
