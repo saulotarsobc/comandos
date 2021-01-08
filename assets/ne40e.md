@@ -50,9 +50,9 @@ monitor interface-statistics interface [interface] interval [segundos] times [nu
 
 ### ◾VERIFICAR ROTAS - DISPLAY ROUTING
 
-#### ▪️ NORMAL
+1. ▪️ NORMAL
 
-display ip routing-table protocol static
+`display ip routing-table protocol static`
 
 ##### ▪️ COM FILTRO
 
