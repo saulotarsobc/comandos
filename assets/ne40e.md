@@ -16,11 +16,16 @@
 
 ### ◾ MUDAR SENHA - CHANGE PASSWORD
 
-``c++
+```bash
 aaa
-local-user root password cipher [SENHA]
+local-user root password cipher [senha]
 commit
 
+```
+
+```bash
+#!/bin/bash
+echo Hello world
 ```
 
 ### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
