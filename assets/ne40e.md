@@ -50,13 +50,19 @@ monitor interface-statistics interface [interface] interval [segundos] times [nu
 
 ### ◾VERIFICAR ROTAS - DISPLAY ROUTING
 
-1. ▪️ NORMAL
+#### ▪️ NORMAL
 
-`display ip routing-table protocol static`
+```md
+display ip routing-table protocol static
 
-##### ▪️ COM FILTRO
+```
 
+#### ▪️ COM FILTRO
+
+```md
 display ip routing-table protocol static | include [expressao]
+
+```
 
 ### ◾ UPTIME
 
@@ -66,23 +72,33 @@ display version
 
 #### ADD
 
+```md
 ip address [ip] [mascara]
 ip address [ip] [mascara] sub
 ip address [ip] [mascara] sub
+commit
+
+```
 
 #### REMOVER
 
+```md
 undo ip address [ip] [mascara] sub
 undo ip address [ip] [mascara] sub
 undo ip address [ip] [mascara]
 commit
 
+```
+
 ### ◾ GATEWAY
 
+```md
 ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
-
 commit
->Ex: ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
+
+```
+
+> Ex: ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
 
 ### ◾ EXIBIR IPS ANUNCIADOS DO PEER
 
