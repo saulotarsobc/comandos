@@ -16,9 +16,9 @@
 
 ### ◾ MUDAR SENHA - CHANGE PASSWORD
 
-```py
+``c++
 aaa
-local-user root password cipher <SENHA>
+local-user root password cipher [SENHA]
 commit
 
 ```
