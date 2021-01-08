@@ -44,14 +44,14 @@ $ comm
     $ ip address [ip] [mascara] sub
 
 ### ◾ IP ADDRESS REMOVE
-    undo ip address [ip] [mascara] sub
-    undo ip address [ip] [mascara] sub
-    undo ip address [ip] [mascara]
-    commit
+    $ undo ip address [ip] [mascara] sub
+    $ undo ip address [ip] [mascara] sub
+    $ undo ip address [ip] [mascara]
+    $ commit
 
 ### ◾ GATEWAY
-    ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
-    commit
+    $ ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
+    $ commit
 Ex:
   >ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
 
