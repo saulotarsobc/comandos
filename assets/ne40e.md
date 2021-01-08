@@ -53,8 +53,7 @@ $ comm
 ### ◾ GATEWAY
     $ ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
     $ commit
-Ex:
-  >ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
+  >Ex: $ ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
 
 ### ◾ EXIBIR IPS ANUNCIADOS DO PEER
     $ display bgp peer
