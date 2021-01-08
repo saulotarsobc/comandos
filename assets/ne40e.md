@@ -16,14 +16,12 @@
 
 ### ◾ MUDAR SENHA - CHANGE PASSWORD
 
-  ```ops
-  aaa
+```PY
+aaa
 local-user root password cipher <SENHA>
 commit
 
-  
-
-  ```
+```
 
 ### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
 
