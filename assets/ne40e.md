@@ -101,3 +101,18 @@ display bgp routing-table peer [ip_do_peer] advertised-routes
 ```py
 display ip ip-prefix [nome_do_prefixo]
 ```
+
+# DISPLAY INTERFACE
+
+```md
+display interface brief
+```
+
+# VERIFICAR CPU
+
+```md
+display cpu-usage
+display cpu-monitor information all
+display cpu monitor history
+display cpu-defend all statistics
+```
