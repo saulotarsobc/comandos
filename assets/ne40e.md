@@ -37,7 +37,7 @@ monitor interface-statistics interface [interface] interval [segundos] times [nu
 
 > monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
-### ◾VERIFICAR ROTAS - DISPLAY ROUTING
+### ◾ VERIFICAR ROTAS - DISPLAY ROUTING
 
 #### ▪️ NORMAL
 
@@ -92,17 +92,17 @@ display bgp routing-table peer [ip_do_peer] advertised-routes
 
 #### ▪️ Exibir blocos redes 'saindo' por prefixo
 
-```py
+```md
 display ip ip-prefix [nome_do_prefixo]
 ```
 
-# DISPLAY INTERFACE
+## DISPLAY INTERFACE
 
 ```md
 display interface brief
 ```
 
-# VERIFICAR CPU
+## VERIFICAR CPU
 
 ```md
 display cpu-usage
