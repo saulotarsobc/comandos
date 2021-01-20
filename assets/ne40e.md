@@ -1,9 +1,3 @@
-<!-- <h1 align="center">😁 Comando básicos -> Huawei NE40E</h1> -->
-
-<!-- <h4 align="center">
-🚧 OPS!! Em construção... 🚧
-</h4> -->
-
 # 😁 Comando básicos -> Huawei NE40E
 
 ## 🚧 OPS!! Em construção... 🚧
