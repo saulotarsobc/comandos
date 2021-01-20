@@ -8,20 +8,20 @@
 
 ![ne40e](./img/ne40e.png)
 
-### ◾ MUDAR SENHA - CHANGE PASSWORD
+### MUDAR SENHA - CHANGE PASSWORD
 
 ```md
 aaa
 local-user root password cipher [senha]
 ```
 
-### ◾ MUDAR PORTA SSH - CHANGE SSH PORT
+### MUDAR PORTA SSH - CHANGE SSH PORT
 
 ```md
 ssh server port [porta]
 ```
 
-### ◾ ROTAS ESTÁTICAS - STATIC ROUTES
+### ROTAS ESTÁTICAS - STATIC ROUTES
 
 ```md
 ip route-static [ip_do_cliente] [mascara ex: 24] [ip_do_concentrador] description [descricao]
@@ -29,7 +29,7 @@ ip route-static [ip_do_cliente] [mascara ex: 24] [ip_do_concentrador] descriptio
 
 > ip route-static 192.168.2.1 24 192.168.0.1 description para_narnia
 
-### ◾ MONITORAR TRAFEGO - TRAFFIC MONITOR
+### MONITORAR TRAFEGO - TRAFFIC MONITOR
 
 ```md
 monitor interface-statistics interface [interface] interval [segundos] times [numero vezes ou 'infinity']
@@ -37,7 +37,7 @@ monitor interface-statistics interface [interface] interval [segundos] times [nu
 
 > monitor interface-statistics interface GigabitEthernet 0/3/4 interval 2 times infinity
 
-### ◾ VERIFICAR ROTAS - DISPLAY ROUTING
+### VERIFICAR ROTAS - DISPLAY ROUTING
 
 #### ▪️ NORMAL
 
@@ -51,11 +51,11 @@ display ip routing-table protocol static
 display ip routing-table protocol static | include [expressao]
 ```
 
-### ◾ UPTIME
+### UPTIME
 
 display version
 
-### ◾ IP ADDRESS
+### IP ADDRESS
 
 #### ADD
 
@@ -73,7 +73,7 @@ undo ip address [ip] [mascara] sub
 undo ip address [ip] [mascara]
 ```
 
-### ◾ GATEWAY
+### GATEWAY
 
 ```md
 ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
@@ -81,14 +81,14 @@ ip route-static 0.0.0.0 0.0.0.0 [ip_gateway]
 
 > ip route-static 0.0.0.0 0.0.0.0 172.31.255.1
 
-### ◾ EXIBIR IPS ANUNCIADOS DO PEER
+### EXIBIR IPS ANUNCIADOS DO PEER
 
 ```md
 display bgp peer
 display bgp routing-table peer [ip_do_peer] advertised-routes
 ```
 
-### ◾ SOBRE BGP
+### SOBRE BGP
 
 #### ▪️ Exibir blocos redes 'saindo' por prefixo
 
