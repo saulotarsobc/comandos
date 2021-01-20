@@ -39,13 +39,13 @@ monitor interface-statistics interface [interface] interval [segundos] times [nu
 
 ### VERIFICAR ROTAS - DISPLAY ROUTING
 
-#### ▪️ NORMAL
+#### NORMAL
 
 ```md
 display ip routing-table protocol static
 ```
 
-#### ▪️ COM FILTRO
+#### COM FILTRO
 
 ```md
 display ip routing-table protocol static | include [expressao]
@@ -90,7 +90,7 @@ display bgp routing-table peer [ip_do_peer] advertised-routes
 
 ### SOBRE BGP
 
-#### ▪️ Exibir blocos redes 'saindo' por prefixo
+#### Exibir blocos redes 'saindo' por prefixo
 
 ```md
 display ip ip-prefix [nome_do_prefixo]
