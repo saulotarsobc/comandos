@@ -18,8 +18,9 @@ local-user nome@domain.com password cipher [senha]
 ### ADICIONAR TIPOS DE SERVICO AO USER
 
 ```md
-local-user nome@domain.com service-type ssh
+local-user nome@domain.com service-type <service>
 ```
+> pode escolher entre [ssh ftp http snmp mml qx telnet terminal]
 
 ### ALTERAR NIVEL DE ACESSO DO USUARIO
 
