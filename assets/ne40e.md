@@ -8,11 +8,29 @@
 
 ![ne40e](./img/ne40e.png)
 
-### MUDAR SENHA - CHANGE PASSWORD
+### ADICIONAR USUARIO OU MUDAR SENHA - ADD USER OR CHANGE PASSWORD
 
 ```md
 aaa
-local-user root password cipher [senha]
+local-user nome@domain.com password cipher [senha]
+```
+
+### ADICIONAR TIPOS DE SERVICO AO USER
+
+```md
+local-user nome@domain.com service-type ssh
+```
+
+### ALTERAR NIVEL DE ACESSO DO USUARIO
+
+```md
+local-user nome@domain.com level 3
+```
+
+### ALETERAR REGRAS DE BLOQUEIO NO CASO DE ERRO DE SENHA
+
+```md
+local-user nome@domain.com state block fail-times 3 interval 5
 ```
 
 ### MUDAR PORTA SSH - CHANGE SSH PORT
