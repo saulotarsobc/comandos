@@ -72,7 +72,9 @@ display ip routing-table protocol static | include [expressao]
 
 ### UPTIME
 
+```md
 display version
+```
 
 ### IP ADDRESS
 
