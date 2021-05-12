@@ -1,7 +1,7 @@
 <h1 align="center">😁 COMANDOS 😁</h1>
 
 <!-- huawei ne40e -->
-<h4>❤️ Hauwei NE40E</h4>
+<h4>Hauwei NE40E</h4>
 
 <div align="center">
     <a href="https://github.com/saulotarsobc/comandos/blob/master/assets/ne40e.md">
@@ -10,7 +10,7 @@
 </div>
 
 <!-- fiberhome an6001 -->
-<h4>❤️ Fiberhome an6001</h4>
+<h4>Fiberhome an6001</h4>
 
 <div align="center">
     <a href="https://github.com/saulotarsobc/comandos/blob/master/assets/an6001.md">
