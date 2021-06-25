@@ -20,6 +20,7 @@ local-user nome@domain.com password cipher [senha]
 ```md
 local-user nome@domain.com service-type <service>
 ```
+
 > pode adicionar esses servicos: ssh, ftp, http, snmp, mml, qx, telnet ou terminal
 
 ### ALTERAR NIVEL DE ACESSO DO USUARIO
